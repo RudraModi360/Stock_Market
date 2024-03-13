@@ -30,3 +30,19 @@ The project involves the following main steps:
 
 ```bash
 git clone https://github.com/yourusername/stock-price-prediction.git
+```
+
+2.  Navigate to the project directory :
+cd stock-price-prediction
+```bash
+cd tock-price-prediction
+    run the "predict_price()" function
+```
+
+3. Example 
+```bash
+from prediction_model import predict_price
+
+max_price, min_price = predict_price("MUNDRAPORT", 488, 770, 400, 984.72, 27294366, "2007/11/27")
+print("Predicted Maximum Price:", max_price)
+print("Predicted Minimum Price:", min_price)
